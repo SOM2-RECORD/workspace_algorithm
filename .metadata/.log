@@ -11130,3 +11130,6 @@ java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.comm
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-21 19:35:03.509
 !MESSAGE Classpath changed for project: BOJ_Graph
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-21 20:12:08.597
+!MESSAGE Classpath changed for project: BOJ_Graph
