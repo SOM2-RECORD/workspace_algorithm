@@ -64,7 +64,6 @@ public class Main {
 					box[m][n][h] = Integer.parseInt(st.nextToken());
 					if(box[m][n][h] == 1) {
 						queue.add(new Tomato(m, n, h, 0));
-						ripe++;
 						continue;
 					}
 					if(box[m][n][h] == -1) not_exist++;
@@ -72,6 +71,7 @@ public class Main {
 			}
 		}
 		
+		ripe = queue.size();
 		int count = M*N*H-not_exist;
 		if(ripe == count) {
 			System.out.println(0);
